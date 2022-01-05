@@ -44,7 +44,7 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    width: 45vw;
+    min-width: 700px;
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 2px 10px 25px 20px var(--translucent-grayish-blue);
@@ -65,7 +65,7 @@ body {
     align-items: center;
     gap: 30px;
     background-color: var(--white);
-    width: 30vw;
+    width: 425px;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -163,7 +163,7 @@ button {
     color: var(--grayish-blue);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     
     body {
         font-size: 16px;
@@ -171,7 +171,8 @@ button {
     
     .container {
         flex-direction: column;
-        width: 70vw;
+        min-width: 285px;
+        width: 375px
     }
 
     .main-pic {
@@ -182,7 +183,7 @@ button {
     }
 
     .text-container {
-        width: 70vw;
+        width: 100%;
     }
 
     h1 {
