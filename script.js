@@ -43,7 +43,7 @@ else {
             shareSection.classList.add("sectionMovement");
             triangle.classList.add("sectionMovement");
             inactiveShareButton.classList.add("activeShareIcon2");
-            document.querySelector(".inactiveShareIcon img").setAttribute("src", "images/icon-share (Light).svg")
+            document.querySelector(".inactiveShareIcon img").setAttribute("src", "images/icon-share2.svg")
         }
 
     })
