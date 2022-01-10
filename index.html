@@ -10,56 +10,60 @@
 
 </head>
 <body>
-  <main class = "container">
-    <header class = "image-container">
-      <img src = "./images/drawers.jpg" alt = "Drawer picture" class = "main-pic">
-    </header>
-    <div class = "text-container">
-      <section class = "article-body">
-        <article>
-          <h1 class = "article-heading weight-bold color-dark">
-            Shift the overall look and feel by adding these wonderful 
-            touches to furniture in your home
-          </h1>
-          <p class = "article-body medium color-desaturated">
-            Ever been in a room and felt like something was missing? Perhaps 
-            it felt slightly bare and uninviting. I’ve got some simple tips 
-            to help you make any room feel complete.
-          </p>
-        </article>
-      </section>
-      <footer>
-        <div class = "author-details">
-          <div class = "author-image">
-            <img src = "./images/avatar-michelle.jpg" id = "avatar-image" class = "circle">
+  <div class="wrapper">
+    <main>
+      <div class="topImageContainer">
+        <img src="images/drawers.jpg" alt="Drawers Image">
+      </div>
+      <section class="contentSection">
+        <div class="mainContent">
+          <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+          <h4>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</h4>
+        </div>
+        <div class="profileSection">
+          <div class="subProfileSection profileSectionContainer">
+            <div class="profile">
+              <img src="images/avatar-michelle.jpg" alt="Michelle Profile">
+              <div>
+                <h3>Michelle Appleton</h3>
+                <p>28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="profileShareIcon inactiveShareIcon">
+              <img src="images/icon-share.svg" alt="Share Icon">
+            </div>
           </div>
-          <div class = "details">
-            <p class = "author-name weight-bold color-dark">
-              Michelle Appleton
-            </p>
-            <p class = "date weight-medium color-grayish">
-              28 Jun 2020
-            </p>
+          <span class="triangleShadow opacity0">
+            <span class="triangle"></span>
+          </span>
+          <div class="subProfileSection shareSectionContainer opacity0">
+            <div class="share">
+              <h2>SHARE</h2>
+              <div class="socialMediaSection">
+                <a href="#"> <img src="images/icon-facebook.svg" alt="Facebook Icon"> </a>
+                <a href="#"> <img src="images/icon-twitter.svg" alt="Twitter Icon"> </a>
+                <a href="#"> <img src="images/icon-pinterest.svg" alt="Pinterest Icon"> </a>
+              </div>
+            </div>
+            <div class="profileShareIcon activeShareIcon">
+              <img src="images/icon-share2.svg" alt="Share Icon">
+            </div>
           </div>
         </div>
-        <button>
-          <div class = "share-button circle">
-            <img src = "./images/icon-share.svg" alt = "Share" id = "share-image">
-          </div>
-        </button>
-      </footer>
-    </div>
-  </main>
-  
+      </section>
+    </main>
+  </div>
+
   <div class="attribution">
-    <p>
+    <p class="attribution-text">
       Challenge by
     </p>
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-    <p>
+    <p class="attribution-text">
       Coded by
     </p>
     <a href="https://github.com/VishrutAggarwal">Vishrut Aggarwal</a>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
