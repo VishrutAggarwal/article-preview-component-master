@@ -41,8 +41,8 @@ Mobile View:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/VishrutAggarwal/article-preview-component-master)
-- Live Site URL: [Add live site URL here](https://vishrutaggarwal.github.io/article-preview-component-master/)
+- Solution URL: [Github Repository](https://github.com/VishrutAggarwal/article-preview-component-master)
+- Live Site URL: [Github Pages](https://vishrutaggarwal.github.io/article-preview-component-master/)
 
 ## My process
 
